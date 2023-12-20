@@ -1,0 +1,9 @@
+/* Add the following custom styles for gradient and hover effect */
+.gradient-corner {
+    background: linear-gradient(45deg, #44ce6f, #2ca880);
+  }
+  
+  #transform-gpu {
+    will-change: transform;
+  }
+  

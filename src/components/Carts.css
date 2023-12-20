@@ -1,0 +1,30 @@
+@keyframes cardHoverAnimation {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-5px); /* Adjust the value as needed */
+    }
+  }
+  
+  /* Gradient Background for Hover Effect */
+  .bg-gradient-card:hover {
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+  }
+  
+  /* Text Color for Hover Effect */
+  .bg-gradient-card:hover h6,
+  .bg-gradient-card:hover p {
+    color: #fff;
+  }
+  
+  /* Animation for Hover Effect */
+  .bg-gradient-card {
+    transition: background 0.5s ease-in-out, transform 0.5s ;
+  }
+  
+  .bg-gradient-card:hover {
+    animation: cardHoverAnimation 0.4s ease-out;
+    /* animation: ease-in-out ; */
+  }
+  
