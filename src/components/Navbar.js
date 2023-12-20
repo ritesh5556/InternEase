@@ -29,17 +29,17 @@ const Navbar = (props) => {
       </button>
 
       <nav className={`mt-4 md:mt-0 ${showLinks ? 'block' : 'hidden'} md:flex md:items-center`}>
-        <ul className='text-cyan-700 text-2sm font-bold opacity-75 flex flex-col md:flex-row gap-x-6'>
-          <li>
+        <ul className='text-cyan-700 text-2sm font-bold opacity-75 flex flex-col  md:flex-row gap-x-6'>
+          <li className='hover-underline-animation'>
             <Link to="/">Home</Link>
           </li>
           {/* <li>
             <Link to="/">About</Link>
           </li> */}
-          <li>
+          <li className='hover-underline-animation'>
             <Link to='/footer'>Contact</Link>
           </li>
-          <li>
+          <li className='hover-underline-animation'>
             <Link to="/courses">Courses</Link>
           </li>
         </ul>
